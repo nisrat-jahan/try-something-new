@@ -1,0 +1,93 @@
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container,.section-2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1c9d2;
+  
+   padding: 50px 140px;
+   margin: 50px;
+}
+.btn-primary{
+   background-color: #E55473; 
+   color: white;
+   border-radius: 8px;
+   padding: 15px 20px;
+   font-size: 20px;
+   border: none;
+}
+h1{
+    font-size: 80px;
+    font-weight: Extrabold;
+    
+}
+p{
+    font-size: 18px; 
+    color: #272727;
+}
+/*section*/
+.flower{
+    border: 100px  solid black;
+    border-radius: 100% 100% 0 0;
+    border: none;
+    padding: 200px;
+   
+}
+.flower-1{
+    background-color: #f5bed9;
+}
+.flower-2{
+    background-color: #bcedf0;
+}
+.flower-3{
+    background-color: #ebf8de;
+}
+.title{
+    justify-items: center;
+}
+.cclection{
+    display: flex;
+    justify-content: space-around;
+}
+.tag h3{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+
+.banner-3{
+   text-align: center;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.inline{
+    display: inline;
+}
+.section-4{
+     
+      height: 100vh;
+      background-image: url('./Flower Asset/Rectangle 9.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+}
+.section-4 p{
+    align-items: center;
+}
+.pic-2 h1,p{
+    text-align: center;
+}
+.inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
